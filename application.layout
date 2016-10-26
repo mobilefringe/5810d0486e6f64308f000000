@@ -51,7 +51,7 @@
     <script src="http://mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
-        setEndPoint('http://vagateway.mallmaverick.com/api/v3/vagateway/all.json');
+        setEndPoint('http://washingtonian.mallmaverick.com/api/v3/washingtonian/all.json');
     </script>
 </head>
 
