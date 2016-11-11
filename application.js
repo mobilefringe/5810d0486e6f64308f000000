@@ -2,7 +2,7 @@
 
 
 
-function renderBanner(banner_template,home_banner,banners){
+function renderBanner(banner_template, home_banner, banners){
     var item_list = [];
     var item_rendered = [];
     var banner_template_html = $(banner_template).html();
