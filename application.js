@@ -23,21 +23,29 @@ function renderBanner(banner_template, home_banner, banners){
                 if (end >= today){
                     item_list.push(val);  
                 }
-             
             } else {
                 item_list.push(val);
             }
         }
     });
-
     $.each( item_list , function( key, val ) {
         var repo_rendered = Mustache.render(banner_template_html,val);
         item_rendered.push(repo_rendered);
-       
     });
     $(home_banner).html(item_rendered.join(''));
-    
 }
+
+function renderMobileBanner(mobile_banner_template, mobile_banner, images){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(mobile_banner_template).html();
+    $.each(images, function(key, val) {
+        var rendered = Mustache.render(template_html, val);
+        item_rendered.push(rendered);
+    });
+    $(mobile_banner).html(item_rendered.join(''));
+}
+
 function renderFeatureItems(container, template, collection){
     var item_list = [];
     var item_rendered = [];
