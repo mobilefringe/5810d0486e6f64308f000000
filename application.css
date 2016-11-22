@@ -346,14 +346,12 @@ body{
     color: #fff;
     padding: 15px 0;
     bottom:-50px;
-    // bottom: -20px;
     transition: bottom 0.3s;
 }
 
 .feature_item figcaption:hover .view_button{
     transition: bottom 0.3s;
     bottom: 0;
-    // bottom: 30px;
 }
 
 .heading{
