@@ -1283,8 +1283,6 @@ body{
         padding-right: 10px;
         float: left;
         width: 33.33333333%;
-        // max-height:300px;
-        overflow:hidden;    
     }
     
     .feature_title {
@@ -1301,7 +1299,7 @@ body{
         // float: left;
         // width: 33.33333333%;
         max-height:300px;
-        // overflow:hidden;
+        overflow:hidden;
         width: 100%;
     }
     
