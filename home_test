@@ -78,7 +78,7 @@
 </div>
 <div class="content_container main_container">
     <div style="background: gray; height: 100px;"></div>
-    <div style="height: 20px"></div>
+    <div style="height: 40px"></div>
 </div>
 <div class="content_container position_relative main_container">
     <h2 class="heading text-center show_phone">VISIT US</h2>
