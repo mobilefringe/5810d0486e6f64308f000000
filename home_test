@@ -76,7 +76,7 @@
     <!--    <div class="clearfix"></div>-->
     <!--</div>-->
 </div>
-<div class="content_container">
+<div class="content_container main_container">
     <img src="//placehold.it/1200/100"/>
 </div>
 <div class="content_container position_relative main_container">
