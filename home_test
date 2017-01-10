@@ -76,7 +76,7 @@
     <!--    <div class="clearfix"></div>-->
     <!--</div>-->
 </div>
-<div class="content_container main_container">
+<div class="content_container">
     <div style="background: gray; height: 100;"></div>
 </div>
 <div class="content_container position_relative main_container">
