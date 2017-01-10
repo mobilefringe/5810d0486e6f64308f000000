@@ -76,6 +76,9 @@
     <!--    <div class="clearfix"></div>-->
     <!--</div>-->
 </div>
+<div class="content_container">
+    <img src="//placehold.it/1200/100"/>
+</div>
 <div class="content_container position_relative main_container">
     <h2 class="heading text-center show_phone">VISIT US</h2>
     <div class="overlay" onclick="style.pointerEvents='none'"></div>
