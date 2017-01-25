@@ -78,8 +78,9 @@
 </div>
 <div class="content_container main_container">
     <!--<div style="background: gray; height: 100px;"></div>-->
-    <img src="http://assets.codecloudapp.com/sites/5810d0486e6f64308f000000/image/png/1485375530000/petersonbannerads-01 Desktop.png" class="" alt="">
-    <div style="height: 40px"></div>
+    <div class="banner_container" style="width:100%">
+        <img src="http://assets.codecloudapp.com/sites/5810d0486e6f64308f000000/image/png/1485375530000/petersonbannerads-01 Desktop.png" class="" alt="">
+    </div>
 </div>
 <div class="content_container position_relative main_container">
     <h2 class="heading text-center show_phone">VISIT US</h2>
