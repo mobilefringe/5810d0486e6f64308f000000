@@ -79,11 +79,11 @@
 <div class="content_container main_container">
     <!--<div style="background: gray; height: 100px;"></div>-->
     <div class="banner_container" style="width:100%">
-        <img src="http://assets.codecloudapp.com/sites/5810d0486e6f64308f000000/image/png/1485375530000/petersonbannerads-01 Desktop.png" class="" alt="">
+        <img src="http://assets.codecloudapp.com/sites/5810d0486e6f64308f000000/image/png/1485376755000/banner-03.png" class="" alt="" style="width:100%">
     </div>
     <div style="height: 40px"></div>
-    <div class="banner_container" style="width:100%">
-        <img src="http://assets.codecloudapp.com/sites/5810d0486e6f64308f000000/image/png/1485375532000/petersonbannerads-02 Mobile.png" class="" alt="">
+    <div class="banner_container" >
+        <img src="http://assets.codecloudapp.com/sites/5810d0486e6f64308f000000/image/png/1485376756000/banner-04.png" class="" alt="" style="width:100%">
     </div>
     <div style="height: 40px"></div>
 </div>
