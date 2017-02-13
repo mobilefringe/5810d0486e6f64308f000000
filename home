@@ -76,6 +76,19 @@
     <!--    <div class="clearfix"></div>-->
     <!--</div>-->
 </div>
+<div class="content_container main_container">
+    <div class="flexslider">
+        <ul class="slides" id="ad_banner_container">
+            <script id="ad_banner_template" type="x-tmpl-mustache/text">
+                <li>
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}">
+                        <img src="{{image_url}}" class="{{gif_class}}"/>
+                    </a>
+                </li>
+            </script>
+        </ul>
+    </div>
+</div>
 <div class="content_container position_relative main_container">
     <h2 class="heading text-center show_phone">VISIT US</h2>
     <div class="overlay" onclick="style.pointerEvents='none'"></div>
@@ -108,6 +121,9 @@
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos.reverse().slice(0,3));
             }
+            
+            var ad_banner = getRepoDetailsByName('Ad Banner Desktop').images;
+            renderBanner("#ad_banner_container", "#ad_banner_template", ad_banner);
             show_content();
             
             $('.flexslider').flexslider({
