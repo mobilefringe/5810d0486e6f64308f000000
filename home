@@ -81,7 +81,7 @@
         <ul class="slides" id="ad_banner_container">
             <script id="ad_banner_template" type="x-tmpl-mustache/text">
                 <li>
-                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}">
+                    <a href="{{url}}" {{css}} onclick="{{noLink}}">
                         <img src="{{photo_url_abs}}" class="{{gif_class}}"/>
                     </a>
                 </li>
@@ -124,7 +124,7 @@
             
             var ad_banner = getRepoDetailsByName('Ad Banner Desktop').images;
             console.log(ad_banner);
-            renderBanner("#ad_banner_container", "#ad_banner_template", ad_banner);
+            renderGeneral("#ad_banner_container", "#ad_banner_template", ad_banner);
             show_content();
             
             $('.flexslider').flexslider({
