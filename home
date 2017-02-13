@@ -123,6 +123,7 @@
             }
             
             var ad_banner = getRepoDetailsByName('Ad Banner Desktop').images;
+            console.log(ad_banner);
             renderBanner("#ad_banner_container", "#ad_banner_template", ad_banner);
             show_content();
             
