@@ -78,7 +78,7 @@
 </div>
 <div class="content_container main_container">
     <div class="ad_banner_row">
-        <div class="flexslider">
+        <div class="flexslider hidden_phone">
             <ul class="slides" id="ad_banner_container">
                 <script id="ad_banner_template" type="x-tmpl-mustache/text">
                     <li>
