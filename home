@@ -77,7 +77,7 @@
     <!--</div>-->
 </div>
 <div class="content_container main_container">
-    <div class="feature_row">
+    <div class="ad_banner_row">
         <div class="flexslider">
             <ul class="slides" id="ad_banner_container">
                 <script id="ad_banner_template" type="x-tmpl-mustache/text">
