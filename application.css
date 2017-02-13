@@ -1289,6 +1289,7 @@ body{
         }
     }
     
+    
     .feature_item_container {
         padding-left: 10px;
         padding-right: 10px;
@@ -1325,8 +1326,8 @@ body{
         overflow:hidden;
     }
     
-    .home_promotions{
-        
+    .ad_banner_row {
+        padding-bottom: 40px;    
     }
     
     .site_map{
