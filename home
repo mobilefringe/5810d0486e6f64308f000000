@@ -77,16 +77,18 @@
     <!--</div>-->
 </div>
 <div class="content_container main_container">
-    <div class="flexslider">
-        <ul class="slides" id="ad_banner_container">
-            <script id="ad_banner_template" type="x-tmpl-mustache/text">
-                <li>
-                    <a href="{{url}}" {{css}} onclick="{{noLink}}">
-                        <img src="{{photo_url_abs}}" class="{{gif_class}}"/>
-                    </a>
-                </li>
-            </script>
-        </ul>
+    <div class="feature_row">
+        <div class="flexslider">
+            <ul class="slides" id="ad_banner_container">
+                <script id="ad_banner_template" type="x-tmpl-mustache/text">
+                    <li>
+                        <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                            <img src="{{photo_url_abs}}" class="{{gif_class}}"/>
+                        </a>
+                    </li>
+                </script>
+            </ul>
+        </div>
     </div>
 </div>
 <div class="content_container position_relative main_container">
