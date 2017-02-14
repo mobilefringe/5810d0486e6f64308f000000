@@ -93,9 +93,11 @@
             <ul class="slides" id="mobile_ad_banner_container">
                 <script id="mobile_ad_banner_template" type="x-tmpl-mustache/text">
                     <li>
-                        <a href="{{url}}" {{css}} onclick="{{noLink}}" target="_blank">
+                        {{#url}}
+                        <a href="{{url}}" target="_blank">
                             <img src="{{photo_url_abs}}" class="{{gif_class}}"/>
                         </a>
+                        {{/url}}
                     </li>
                 </script>
             </ul>
