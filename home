@@ -82,7 +82,7 @@
             <ul class="slides" id="ad_banner_container">
                 <script id="ad_banner_template" type="x-tmpl-mustache/text">
                     <li>
-                        <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                        <a href="{{url}}" {{css}} onclick="{{noLink}}" target="_blank">
                             <img src="{{photo_url_abs}}" class="{{gif_class}}"/>
                         </a>
                     </li>
@@ -93,7 +93,7 @@
             <ul class="slides" id="mobile_ad_banner_container">
                 <script id="mobile_ad_banner_template" type="x-tmpl-mustache/text">
                     <li>
-                        <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                        <a href="{{url}}" {{css}} onclick="{{noLink}}" target="_blank">
                             <img src="{{photo_url_abs}}" class="{{gif_class}}"/>
                         </a>
                     </li>
