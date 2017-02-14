@@ -142,10 +142,9 @@
             
             var ad_banner = getRepoDetailsByName('Ad Banner Desktop').images;
             renderGeneral("#ad_banner_container", "#ad_banner_template", ad_banner);
-            
             var mobile_ad_banner = getRepoDetailsByName('Ad Banner Mobile').images;
-            console.log(mobile_ad_banner);
             renderGeneral("#mobile_ad_banner_container", "#mobile_ad_banner_template", mobile_ad_banner);
+            
             show_content();
             
             $('.flexslider').flexslider({
