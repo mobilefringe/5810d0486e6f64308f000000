@@ -144,8 +144,12 @@
             }
             
             var ad_banner = getRepoDetailsByName('Ad Banner Desktop').images;
-            console.log(ad_banner);
-            renderGeneral("#ad_banner_container", "#ad_banner_template", ad_banner);
+            if(ad_banner.length < 1) {
+                $("#ad_banner_row").hide();
+            } else {
+                renderGeneral("#ad_banner_container", "#ad_banner_template", ad_banner);    
+            }
+            
             var mobile_ad_banner = getRepoDetailsByName('Ad Banner Mobile').images;
             renderGeneral("#mobile_ad_banner_container", "#mobile_ad_banner_template", mobile_ad_banner);
             
