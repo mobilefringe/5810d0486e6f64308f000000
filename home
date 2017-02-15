@@ -76,7 +76,7 @@
     <!--    <div class="clearfix"></div>-->
     <!--</div>-->
 </div>
-<div class="content_container main_container">
+<div class="content_container main_container" id="ad_banner">
     <div class="ad_banner_row">
         <div class="flexslider hidden_phone">
             <ul class="slides" id="ad_banner_container">
@@ -145,7 +145,7 @@
             
             var ad_banner = getRepoDetailsByName('Ad Banner Desktop').images;
             if(ad_banner.length < 1) {
-                $("#ad_banner_row").hide();
+                $("#ad_banner").hide();
             } else {
                 renderGeneral("#ad_banner_container", "#ad_banner_template", ad_banner);    
             }
