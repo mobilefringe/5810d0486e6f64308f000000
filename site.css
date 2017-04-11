@@ -25,11 +25,10 @@
 }
 
 
-
 .hidden-popup-form{
+    margin:5% auto;
     width:650px;
     max-height: 80%;
-    overflow-y: scroll;
     height: initial;
 }
 
@@ -56,10 +55,10 @@
     
     h3{
         font-family: blanch;
-        font-size: 140px;
+        font-size: 100px;
         color: #009BDA;
         text-align: center;
-        line-height: 80px;
+        line-height: 55px;
         margin-bottom: 20px;;
     }
     p{
@@ -89,20 +88,4 @@
     position: absolute;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
