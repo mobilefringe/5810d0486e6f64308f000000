@@ -1,5 +1,5 @@
 function init(e){
-    $('<div class="modal-backdrop custom_backdrop"><img src="//kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
+    $('<div class="modal-backdrop custom_backdrop"><img src="//codecloud.cdn.speedyrails.net/sites/590c81856e6f645593020000/image/gif/1493992574000/loading.gif" class="" alt=""></div>').appendTo(document.body);
     $('.open_menu').click(function(e){
         $('body').addClass('no_scroll');
         $('.mobile_menu_container').fadeIn();
