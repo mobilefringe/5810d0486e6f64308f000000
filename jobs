@@ -5,9 +5,7 @@
     <div class="row">
         <div class="col-md-8">
             <div id="no_jobs" class="hidden_now">
-                <p>
-                    There are currently no job postings, please check back again later.
-                </p>
+                <p>There are currently no job postings, please check back again later.</p>
             </div>
             <div id="jobs_container">
                 <script id="jobs_template" type="x-tmpl-mustache/text">
@@ -26,7 +24,6 @@
                 </script>
             </div>
         </div>
-        
         <div class="col-md-4 hidden_phone">
             <img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1456330978000/Plaza2.png" alt="plaza">
             <img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1456330970000/Plaza.png" alt="plaza 2">
