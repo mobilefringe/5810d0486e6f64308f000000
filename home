@@ -33,13 +33,12 @@
 </div>
 
 <div class="show_phone mobile_banner">
-    <!--<img src="//codecloud.cdn.speedyrails.net/sites/5810d0486e6f64308f000000/image/png/1478198391000/rwcmobilebanner.png" class="" alt="banner">-->
     <div class="flexslider">
         <ul class="slides" id="mobile_banner">
             <script id="mobile_banner_template" type="x-tmpl-mustache/text">
                 <li>
                     <a class="banner_image_li" href="{{url}}" >
-                        <img src="{{photo_url_abs}}" alt="banner"/>
+                        <img src="{{image_url}}" alt="banner"/>
                     </a>
                 </li>
             </script>
