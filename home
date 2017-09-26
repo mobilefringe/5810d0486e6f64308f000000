@@ -107,9 +107,9 @@
                         {{#url}}
                         <a href="{{url}}" target="_blank">
                         {{/url}}
-                            {{#photo_url_abs}}
-                            <img src="{{photo_url_abs}}"/>
-                            {{/photo_url_abs}}
+                            {{#image_url}}
+                            <img src="{{image_url}}"/>
+                            {{/image_url}}
                         </a>
                     </li>
                 </script>
@@ -122,9 +122,9 @@
                         {{#url}}
                         <a href="{{url}}" target="_blank">
                         {{/url}}
-                            {{#photo_url_abs}}
-                            <img src="{{photo_url_abs}}"/>
-                            {{/photo_url_abs}}
+                            {{#image_url}}
+                            <img src="{{image_url}}"/>
+                            {{/image_url}}
                         </a>
                     </li>
                 </script>
