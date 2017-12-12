@@ -48,8 +48,8 @@ function init(e){
     })
     
     //dynamically changing copyright year
-var current_year = moment().year();
-$("#current_year").text(current_year);
+    var current_year = moment().year();
+    $("#current_year").text(current_year);
 
 }
 
