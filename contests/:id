@@ -68,8 +68,7 @@
         var contestDetails = getContestBySlug(slug);
         if(contestDetails != undefined){
             renderContest('#contest_container','#contest_template', contestDetails);
-        }
-        else{
+        } else {
             $('#contest_ended').show();
         }
         show_content();
@@ -79,8 +78,7 @@
                 alert("Please agree with Terms and Conditions to continue.");
                 $("#agree_terms").focus();
                 return false;
-            }
-            else{
+            } else {
                 $('#submit_btn').prop( "disabled", true );
                 submit_contest($(this).serialize());
                 if ($("#add_to_newsletter").prop("checked")){
