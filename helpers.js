@@ -300,12 +300,13 @@ function site_search(){
 }
 
 function submit_contest(data) {
-    var propertyDetails = getPropertyDetails();
-    var host = propertyDetails.mm_host;
+    // var propertyDetails = getPropertyDetails();
+    // var host = propertyDetails.mm_host;
+    var prefix = get_prefix();
     var email = $("#email").val();
     var name = $("#first_name").val() + " " + $("#last_name").val();
     $.ajax({
-        url: host+"/newsletter_no_captcha",
+        url: prefix + "/newsletter_no_captcha",
         type: "POST",
         data: data,
         success: function(data) {
