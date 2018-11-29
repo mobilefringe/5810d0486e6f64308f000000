@@ -99,10 +99,18 @@
             <div class="col-md-4 col-xs-4">
                 <p class="hidden_phone">Follow us on</p>
                 <div class="social_icons hidden_phone">
-                    <a class="social_fb" href="https://www.facebook.com/riowashingtonian" target="_blank"></a>
-                    <a class="social_twitter" href="https://twitter.com/RIOLakefront" target="_blank"></a>
-                    <a class="social_insta" href="https://www.instagram.com/riolakefront/" target="_blank"></a>
-                    <a class="social_newsletter" href="/newsletter" target="_blank"></a>
+                    <a class="social_fb" href="https://www.facebook.com/riowashingtonian" target="_blank">
+                        <p class="accessibility">Follow Us on Facebook</p>
+                    </a>
+                    <a class="social_twitter" href="https://twitter.com/RIOLakefront" target="_blank">
+                        <p class="accessibility">Follow Us on Twitter</p>
+                    </a>
+                    <a class="social_insta" href="https://www.instagram.com/riolakefront/" target="_blank">
+                        <p class="accessibility">Follow Us on Instagram</p>
+                    </a>
+                    <a class="social_newsletter" href="/newsletter" target="_blank">
+                        <p class="accessibility">Subscribe to our Newsletter</p>
+                    </a>
                 </div>
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Mobile Menu Toggle">
             </div>
@@ -134,7 +142,6 @@
         <h1>Rio Washingtonian Center</h1>
         {{yield}}
     </section>
-    
     <section class="content_container main_container">
         <div class="newsletter_container text-center">
             <h2 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h2>
