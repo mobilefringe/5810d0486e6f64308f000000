@@ -139,7 +139,7 @@
         </div>
     </section>
     <section class="yield">
-        <h1>Rio Washingtonian Center</h1>
+        <h1 class="accessibility">Rio Washingtonian Center</h1>
         {{yield}}
     </section>
     <section class="content_container main_container">
