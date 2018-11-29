@@ -156,8 +156,9 @@
             $('.flexslider').flexslider({
                 animation: "slide",
                 allowOneSlide: false,
-                pauseOnHover: true,  
+                pauseOnHover: true  
             });
+            
             renderSitePopup();
         }
         loadMallData(renderAll); 
