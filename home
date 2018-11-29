@@ -103,7 +103,7 @@
 </div>
 <div class="content_container position_relative main_container">
     <h2 class="heading text-center show_phone">VISIT US</h2>
-    <div class="overlay" onclick="style.pointerEvents='none'"></div>
+    <!--<div class="overlay" onclick="style.pointerEvents='none'"></div>-->
     <iframe class="grayscale" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12382.058905971786!2d-77.200455!3d39.117517!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x31b02cbfb23cdc39!2sRIO+Washingtonian+Center!5e0!3m2!1sen!2sus!4v1477497507151" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 <style>
