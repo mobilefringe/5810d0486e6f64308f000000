@@ -29,11 +29,11 @@
     height: 50px;
 }
 .flex-control-paging li a {
-    border: 1px solid #68add4;
+    border: 1px solid #b9d9eb;
     background: #FFF;
 }
 .flex-control-paging li a.flex-active {
-    background: #68add4;
+    background: #b9d9eb;
 }
 .hidden-popup-form{
     margin:5% auto;
