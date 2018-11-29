@@ -29,7 +29,7 @@
     height: 50px;
 }
 .flex-control-paging li a {
-    border: 1px solid #b9d9eb;
+    border: 1px solid #eee;
     background: #FFF;
 }
 .flex-control-paging li a.flex-active {
