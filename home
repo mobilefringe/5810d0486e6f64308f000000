@@ -19,7 +19,9 @@
         <ul class="slides" id="mobile_banner">
             <script id="mobile_banner_template" type="x-tmpl-mustache/text">
                 <li>
+                    {{#url}}
                     <a class="banner_image_li" href="{{url}}">
+                    {{/url}}
                         <img src="{{image_url}}" alt="{{name}}"/>
                     </a>
                 </li>
