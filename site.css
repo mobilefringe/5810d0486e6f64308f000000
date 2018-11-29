@@ -27,6 +27,7 @@
 
 .flex-direction-nav a {
     height: 50px;
+    background: #FFF;
 }
 .flex-control-paging li a.flex-active {
     background: #68add4;
