@@ -13,7 +13,9 @@
   font-family: 'beloved';
   src: url('//codecloud.cdn.speedyrails.net/sites/581107b46e6f642cc0000000//1491597046000/beloved.woff')
 }
-
+.accessibility {
+    display: none;
+}
 .feature_item figure figcaption .view_button{
     background: #b9d9eb;
     color:black;
