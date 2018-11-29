@@ -156,6 +156,7 @@
             $('.flexslider').flexslider({
                 animation: "slide",
                 allowOneSlide: false,
+                pauseOnHover: true,  
             });
             renderSitePopup();
         }
