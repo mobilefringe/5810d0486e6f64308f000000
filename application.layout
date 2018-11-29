@@ -92,8 +92,9 @@
     </div>
     <section class="content_container main_container position_relative">
         <div class="mobile_search ">
+            <label class="accessibility" for="site_search">Seach Site</label>
             <input type="text" placeholder="Search" id="site_search" class="site_search" />
-            <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/jpeg/1456781961000/icon_close.jpg" class="close_search " alt="search">
+            <img class="close_search" src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/jpeg/1456781961000/icon_close.jpg" alt="Search Icon">
         </div>
         <div class="row header mobile_margin">
             <div class="col-md-4 col-xs-4">
@@ -129,7 +130,6 @@
             <!--    </div>-->
             <!--</div>-->
         </div>
-        
         <div class="menu_container hidden_phone">
             <a href="/stores">directory</a>
             <a href="/events">events</a>
