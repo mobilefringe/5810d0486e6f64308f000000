@@ -72,52 +72,39 @@
             <div class="social_icons_menu show_phone text-center">
                 <p>Follow us on</p>
                 <a href="https://www.facebook.com/riowashingtonian" target="_blank">
-                    <p class="accessibility">Follow Us on Facebook</p>
-                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143423000/icon_facebook_white.png" alt="Facebook Icon">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143423000/icon_facebook_white.png" class="" alt="FB">
                 </a>
                 <a href="https://twitter.com/RIOLakefront" target="_blank">
-                    <p class="accessibility">Follow Us on Twitter</p>
-                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143456000/icon_twitter_white.png" alt="Twitter Icon">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143456000/icon_twitter_white.png" class="" alt="Twitter">
                 </a>
                 <a href="https://www.instagram.com/riolakefront/" target="_blank">
-                    <p class="accessibility">Follow Us on Instagram</p>
-                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143478000/icon_insta_white.png" alt="Instagram Icon">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143478000/icon_insta_white.png" class="" alt="Instagram">
                 </a>
                 <a href="/newsletter" target="_blank">
-                    <p class="accessibility">Subscribe to our Newsletter</p>
-                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143466000/icon_newsletter_white.png" alt="Envelope Icon">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143466000/icon_newsletter_white.png" class="" alt="">
                 </a>
             </div>
         </div>
     </div>
     <section class="content_container main_container position_relative">
         <div class="mobile_search ">
-            <label class="accessibility" for="site_search">Seach Site</label>
             <input type="text" placeholder="Search" id="site_search" class="site_search" />
-            <img class="close_search" src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/jpeg/1456781961000/icon_close.jpg" alt="Search Icon">
+            <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/jpeg/1456781961000/icon_close.jpg" class="close_search " alt="search">
         </div>
         <div class="row header mobile_margin">
             <div class="col-md-4 col-xs-4">
                 <p class="hidden_phone">Follow us on</p>
                 <div class="social_icons hidden_phone">
-                    <a class="social_fb" href="https://www.facebook.com/riowashingtonian" target="_blank">
-                        <p class="accessibility">Follow Us on Facebook</p>
-                    </a>
-                    <a class="social_twitter" href="https://twitter.com/RIOLakefront" target="_blank">
-                        <p class="accessibility">Follow Us on Twitter</p>
-                    </a>
-                    <a class="social_insta" href="https://www.instagram.com/riolakefront/" target="_blank">
-                        <p class="accessibility">Follow Us on Instagram</p>
-                    </a>
-                    <a class="social_newsletter" href="/newsletter" target="_blank">
-                        <p class="accessibility">Subscribe to our Newsletter</p>
-                    </a>
+                    <a class="social_fb" href="https://www.facebook.com/riowashingtonian" target="_blank"></a>
+                    <a class="social_twitter" href="https://twitter.com/RIOLakefront" target="_blank"></a>
+                    <a class="social_insta" href="https://www.instagram.com/riolakefront/" target="_blank"></a>
+                    <a class="social_newsletter" href="/newsletter" target="_blank"></a>
                 </div>
-                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Mobile Menu Icon">
+                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
             <div class="col-md-4 col-xs-4 text-center">
-                <a href="/">
-                    <img class="main_logo" src="//codecloud.cdn.speedyrails.net/sites/5810d0486e6f64308f000000/image/png/1478200608000/logo.png" alt="Rio Washingtonian Logo">
+<a href="/">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/5810d0486e6f64308f000000/image/png/1478200608000/logo.png" class="main_logo " alt="main_logo">
                 </a>
             </div>
             <!--<div class="col-md-4 col-xs-4 text-right position_relative">-->
@@ -130,6 +117,7 @@
             <!--    </div>-->
             <!--</div>-->
         </div>
+        
         <div class="menu_container hidden_phone">
             <a href="/stores">directory</a>
             <a href="/events">events</a>
@@ -139,9 +127,9 @@
         </div>
     </section>
     <section class="yield">
-        <h1 class="accessibility">Rio Washingtonian Center</h1>
         {{yield}}
     </section>
+    
     <section class="content_container main_container">
         <div class="newsletter_container text-center">
             <h2 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h2>
@@ -165,23 +153,21 @@
                     </div>
                     <div class="show_phone">
                         <h4 class="site_map_heading">SOCIAL</h4>
-                        <p class="site_map_desc">Connect with us!</p>
+                        <p class="site_map_desc">
+                            Connect with us!
+                        </p>
                         <div class="social_icons">
                             <a href="https://www.facebook.com/riowashingtonian" target="_blank">
-                                <p class="accessibility">Follow Us on Facebook</p>
-                                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472142462000/icon_facebook.png" alt="Facebook Icon">
+                                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472142462000/icon_facebook.png" class="" alt="FB">
                             </a>
                             <a href="https://twitter.com/RIOLakefront" target="_blank">
-                                <p class="accessibility">Follow Us on Twitter</p>
-                                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472142477000/icon_twitter.png" alt="Twitter Icon">
+                                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472142477000/icon_twitter.png" class="" alt="Twitter">
                             </a>
                             <a href="https://www.instagram.com/riolakefront/" target="_blank">
-                                <p class="accessibility">Follow Us on Instagram</p>
-                                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472142496000/icon_insta.png" alt="Instagram Icon">
+                                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472142496000/icon_insta.png" class="" alt="Instagram">
                             </a>
                             <a href="#" target="_blank">
-                                <p class="accessibility">Subscribe to our newsletter</p>
-                                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472142487000/icon_newsletter.png" alt="Envelope Icon">
+                                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472142487000/icon_newsletter.png" class="" alt="newsletter sign up">
                             </a>
                             <div class="clearfix"></div>
                         </div>
@@ -205,18 +191,19 @@
                                 <li><a href="/contact">Contact Us</a></li>
                                 <li><a href="/about_us">About Us</a></li>
                                 <li><a href="/pages/washingtonian-terms-of-website-use" target="_blank">Terms of Use</a></li>
-                                <li><a href="/pages/washingtonian-privacy-policy" target="_blank">Privacy Policy</a></li>
+                                 <li><a href="/pages/washingtonian-privacy-policy" target="_blank">Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <h4 class="site_map_heading">&copy; <span id="current_year"></span> - RIO Washingtonian Center</h4>
-                    <a href="//www.petersoncos.com/" target="_blank">
-                        <p class="accessibility">Peterson Companies</p>
-                        <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455904883000/client_peterson.png" class="footer_logo" alt="Peterson Companies Logo">
-                    </a>
-                    <p class="rights_reserved">All Rights Reserved<br />Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a></p>
+                    <a href="//www.petersoncos.com/" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455904883000/client_peterson.png" class="footer_logo" alt=""></a>
+                    <p class="rights_reserved">
+                        All Rights Reserved
+                        <br />
+                        Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
+                    </p>
                 </div>
             </div>
         </div>
