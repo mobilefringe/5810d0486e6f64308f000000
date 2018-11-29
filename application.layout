@@ -157,9 +157,7 @@
                     </div>
                     <div class="show_phone">
                         <h4 class="site_map_heading">SOCIAL</h4>
-                        <p class="site_map_desc">
-                            Connect with us!
-                        </p>
+                        <p class="site_map_desc">Connect with us!</p>
                         <div class="social_icons">
                             <a href="https://www.facebook.com/riowashingtonian" target="_blank">
                                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472142462000/icon_facebook.png" class="" alt="FB">
@@ -195,19 +193,18 @@
                                 <li><a href="/contact">Contact Us</a></li>
                                 <li><a href="/about_us">About Us</a></li>
                                 <li><a href="/pages/washingtonian-terms-of-website-use" target="_blank">Terms of Use</a></li>
-                                 <li><a href="/pages/washingtonian-privacy-policy" target="_blank">Privacy Policy</a></li>
+                                <li><a href="/pages/washingtonian-privacy-policy" target="_blank">Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <h4 class="site_map_heading">&copy; <span id="current_year"></span> - RIO Washingtonian Center</h4>
-                    <a href="//www.petersoncos.com/" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455904883000/client_peterson.png" class="footer_logo" alt=""></a>
-                    <p class="rights_reserved">
-                        All Rights Reserved
-                        <br />
-                        Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
-                    </p>
+                    <a href="//www.petersoncos.com/" target="_blank">
+                        <p class="accessibility">Peterson Companies</p>
+                        <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455904883000/client_peterson.png" class="footer_logo" alt="Peterson Companies Logo">
+                    </a>
+                    <p class="rights_reserved">All Rights Reserved<br />Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a></p>
                 </div>
             </div>
         </div>
