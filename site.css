@@ -28,6 +28,9 @@
 .flex-direction-nav a {
     height: 50px;
 }
+.flex-control-paging li a.flex-active {
+    background: #68add4;
+}
 .hidden-popup-form{
     margin:5% auto;
     width:650px;
