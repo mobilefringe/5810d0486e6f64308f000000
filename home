@@ -92,7 +92,7 @@
                         <a href="{{url}}" target="_blank">
                         {{/url}}
                             {{#image_url}}
-                            <img src="{{image_url}}"/>
+                            <img src="{{image_url}}" alt="Ad Banner"/>
                             {{/image_url}}
                         </a>
                     </li>
@@ -107,7 +107,7 @@
                         <a href="{{url}}" target="_blank">
                         {{/url}}
                             {{#image_url}}
-                            <img src="{{image_url}}" alt="Ad Banner"/>
+                            <img src="{{image_url}}" alt="Mobile Ad Banner"/>
                             {{/image_url}}
                         </a>
                     </li>
