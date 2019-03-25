@@ -668,6 +668,9 @@ body {
     font-size: 16px;
     color: #5F574B;
     line-height: 26px
+    a {
+        color: #0075c7;
+    }
 }
 
 .promo_list_name {
