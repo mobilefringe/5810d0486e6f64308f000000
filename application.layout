@@ -95,10 +95,10 @@
             <div class="col-md-4 col-xs-4">
                 <p class="hidden_phone">Follow us on</p>
                 <div class="social_icons hidden_phone">
-                    <a class="social_fb" href="https://www.facebook.com/riowashingtonian" target="_blank"></a>
-                    <a class="social_twitter" href="https://twitter.com/RIOLakefront" target="_blank"></a>
-                    <a class="social_insta" href="https://www.instagram.com/riolakefront/" target="_blank"></a>
-                    <a class="social_newsletter" href="/newsletter" target="_blank"></a>
+                    <a class="social_fb" href="https://www.facebook.com/riowashingtonian" target="_blank" aria-label="Facebook"></a>
+                    <a class="social_twitter" href="https://twitter.com/RIOLakefront" target="_blank" aria-label="Twitter"></a>
+                    <a class="social_insta" href="https://www.instagram.com/riolakefront/" target="_blank" aria-label="Instagram"></a>
+                    <a class="social_newsletter" href="/newsletter" target="_blank" aria-label="Newsletter"></a>
                 </div>
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
