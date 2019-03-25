@@ -41,7 +41,7 @@
                 {{#url}}
                     <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}">
                     {{/url}}
-                        <img src="{{image_url}}" class="{{gif_class}}"/>
+                        <img src="{{image_url}}" class="{{gif_class}}" alt="{{name}}"/>
                     </a>
                 </li>
             </script>
